@@ -1,0 +1,42 @@
+:root {
+  --burgundy: #800020;
+  --gold: #e6c9a8;
+  --white: #fff;
+  /* --dark-bg: #421423c7; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f8;
+}
+.Toastify__toast--success {
+  background-color: var(--burgundy) !important;
+  color: var(--white) !important;
+  font-weight: 500 !important;
+  border-radius: 10px !important;
+}
+.Toastify__progress-bar--success {
+  background: var(--white) !important;
+}
+.Toastify__toast-icon svg {
+  fill: none !important;
+}
+.Toastify__toast--info {
+  background-color: var(--white) !important;
+  color: var(--burgundy) !important;
+  border-radius: 10px !important;
+}
+.Toastify__progress-bar--info {
+  background: var(--burgundy) !important;
+}
+button {
+  background-color: var(--burgundy);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--gold);
+  color: var(--burgundy);
+}
