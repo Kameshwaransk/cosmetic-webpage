@@ -10,7 +10,8 @@
   text-align: center;
   color: white;
   overflow: hidden;
-}
+} 
+/* Kamesh */
 
 .banner::before {
   content: "";
